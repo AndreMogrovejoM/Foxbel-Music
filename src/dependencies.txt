@@ -1,2 +1,8 @@
 yarn add bootstrap
 yarn add reactstrap react react-dom
+yarn add firebase
+yarn add react-redux
+yarn add @reduxjs/toolkit
+yarn add react-router-dom
+yarn add axios
+yarn add @fontsource/quicksand
