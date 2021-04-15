@@ -1,0 +1,92 @@
+.login {
+  max-width: 500px;
+  padding: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.login > img {
+  width: 60%;
+  padding: 20px;
+}
+
+.login__container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(102, 35, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 35, 35, 1) 0%,
+    rgba(232, 96, 96, 1) 50%,
+    rgba(102, 35, 35, 1) 100%
+  );
+}
+
+.login > Form {
+  display: grid;
+  flex-direction: column;
+}
+
+.login > Form > h1 {
+  text-align: left;
+  margin-bottom: 25px;
+  color: #ff7676;
+}
+.label {
+  color: #828282;
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+}
+.login > Form > h4 {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.login__input {
+  display: flex;
+  width: 100%;
+  outline-width: 2;
+  height: 40px;
+  margin-bottom: 14px;
+  border: 1px solid #662323;
+  padding: 5px 15px;
+}
+
+.login > Form > Button {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #eb5757;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login > Form > Button:hover {
+  background-color: #ff7676;
+}
+
+.login__gray {
+  color: #828282;
+}
+.login__link {
+  color: #662323;
+}
+
+.login__link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
